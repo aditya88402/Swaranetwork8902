@@ -14,7 +14,7 @@ from NOBITA_MUSIC.utils.formatters import time_to_seconds
 
 # ============== CONFIGURE YOUR API ==============
 YOUR_API_URL = "http://46.38.237.240:8000"
-YOUR_API_KEY = "strangerapi225dd2761"            # <--- Change me!
+YOUR_API_KEY = "strangerapib22073617"            # <--- Change me!
 # ================================================
 
 def cookies():
@@ -312,3 +312,4 @@ class YouTubeAPI:
                 "outtmpl": "downloads/%(id)s.%(ext)s",
             }
             return await loop.run_in_executor(None, download_action, opts), True
+
