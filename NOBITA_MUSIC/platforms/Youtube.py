@@ -14,7 +14,7 @@ from NOBITA_MUSIC.utils.formatters import time_to_seconds
 
 # ============== CONFIGURE YOUR API ==============
 YOUR_API_URL = "http://46.38.237.240:8000"
-YOUR_API_KEY = "strangerapib22073617"            # <--- Change me!
+YOUR_API_KEY = "strangerapi225dd2761"            # <--- Change me!
 # ================================================
 
 async def get_file_from_api(video_id, audio=True):
@@ -276,3 +276,4 @@ class YouTubeAPI:
         else:
             file_path = await get_file_from_api(video_id, audio=True)
             return file_path, True
+
