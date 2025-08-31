@@ -35,9 +35,6 @@ LOGGER_ID = int(getenv("LOGGER_ID", -1002344707828))
 # Get this value from @PURVI_HELP_BOT on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", 5536473064))
 
-# Vars For API End Pont.
-YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com') ## E.G https://yt.okflix.
-YT_API_KEY = getenv("YT_API_KEY" , None ) ## get your secret key from Mr cute x - @MR_CUTE_X
 
 # make your bots privacy from telegra.ph and put your url here 
 PRIVACY_LINK = getenv("PRIVACY_LINK", "https://graph.org/PRIVACY-FOR-TEAM-PURVI-BOTS-09-18")
