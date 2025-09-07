@@ -1,8 +1,1 @@
 3.10
-# Local repo me changes karo
-nano requirements.txt     # pura replace karo new content se
-nano .python-version      # ek line: 3.10
-
-git add requirements.txt .python-version
-git commit -m "fix: stable requirements for heroku python 3.10"
-git push heroku main
