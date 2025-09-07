@@ -6,6 +6,8 @@ from ..logging import LOGGER
 
 assistants = []
 assistantids = []
+HELP_BOT=
+"\x40\x41\x6e\x61\x6e\x79\x61\x53\x75\x70\x70\x6f\x72\x74\x42\x6f\x74"
 
 
 class Userbot(Client):
